@@ -1,0 +1,90 @@
+:root {
+    
+}
+
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+}
+form {
+    border-bottom: #999 solid 2px;
+    border-top: #999 solid 2px;
+    height: 300px;
+    padding: 10px;
+    padding-right: 575px;
+    margin-top: 200px;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    -webkit-box-shadow: 0 10px 5px #888888;
+    -moz-box-shadow: 0 10px 5px #888888;
+    box-shadow: 0 10px 5px #88888;
+
+}
+
+ul {
+    list-style: none;
+    padding: 14px;
+    margin: 0;
+}
+
+input {
+    font: 1em sans-serif;
+    width: 200px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus {
+    border-color: #000;
+}
+
+ul .button {
+    margin-top: 5px;
+    margin-left: 8.5em;
+    padding-top: 10px;
+    grid-column: 1 / 3;
+    
+}
+
+label {
+    display: inline-block;
+    font-size: small;
+    width: 150px;
+}
+
+li {
+    padding: 3px;
+}
+
+ul li:first-child {
+    grid-column: 1;
+}
+
+ul .two {
+    grid-column: 2;
+}
+
+ul{
+    display: grid;
+}
+
+ul .previousAcc {
+    grid-column: 1/3;
+    padding-top: 10px;
+    margin-left: 5.5em;
+}
+
+.picture {
+    width: 500px;
+}
+
+h3 {
+    margin-left: 7.3em;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
